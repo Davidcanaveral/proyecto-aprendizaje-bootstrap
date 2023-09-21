@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: #383C54;
+}
+.lol{
+    width: 60px;
+    margin-right: 15px;
+}
+.banner{
+    background-image: url("../img/banner2.jpg");
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    
+}
